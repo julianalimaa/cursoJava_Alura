@@ -3,11 +3,11 @@ public class TestaGetESet {
 
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
+		Conta conta = new Conta(100, 1005);
 		Cliente cliente = new Cliente();
 		
 		System.out.println(conta.getAgencia());
-		conta.setAgencia(3689);
+		
 		System.out.println(conta.getAgencia());
 						
 		cliente.setNome("Juliana");

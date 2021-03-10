@@ -7,6 +7,6 @@ public class TestaValores {
 		Conta conta3 = new Conta(100, 1003);
 			
 		System.out.println(Conta.getTotal());		
-	}
+	} 
 	
 }

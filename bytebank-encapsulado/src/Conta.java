@@ -82,6 +82,6 @@ public class Conta {
 	}
 	
 	public static int getTotal() {
-		return total;
+		return Conta.total;
 	}
 }
